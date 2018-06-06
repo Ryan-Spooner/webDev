@@ -20,8 +20,9 @@ header {
       display: flex;
       justify-content: space-evenly; }
       header nav ul li {
-        padding: 1em;
-        border: 0.20em solid #807391;
+        margin: 5px;
+        padding: 0.5em 1em 0.5em;
+        border: 0.15em outset #807391;
         border-radius: 10px;
         background-color: #918873;
         width: 10%;
@@ -29,7 +30,8 @@ header {
         flex: 1; }
         header nav ul li a {
           outline: none;
-          text-decoration: none; }
+          text-decoration: none;
+          font-size: 1.3em; }
           header nav ul li a:link, header nav ul li a:visited {
             color: #2a2e24; }
           header nav ul li a:focus {
@@ -39,8 +41,24 @@ header {
           header nav ul li a:active {
             color: #bbe3b6; }
 
+article {
+  float: left;
+  width: 60%; }
+
+aside {
+  padding: 10px; }
+  aside p {
+    background: linear-gradient(160deg, rgba(83, 106, 103, 0.75), rgba(109, 90, 85, 0.73));
+    border: 5px inset #73918d;
+    padding: 0.7em;
+    border-radius: 8px;
+    float: right;
+    width: 30%; }
+
 h1 {
   font-family: "Merriweather", serif;
   font-size: 32px; }
 
-/*# sourceMappingURL=newStyle.css.map */
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 25px; }
