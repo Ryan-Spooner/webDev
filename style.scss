@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  background-color: #849173;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: black;
+}
+
+// STYLES FOR MAIN TITLE OF THE PAGE
+header {
+  color: black;
+
+  // THIS IS THE MAIN NAVIGATION BAR THAT WILL BE AT THE TOP OF THE PAGE
+  nav {
+    display: flex;
+
+    // BOX CONTAINING LINKS FOR SITE NAVIGATION
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      width: 100%;
+
+      // Flexbox Parameters for the Site Navigation Links
+      display: flex;
+      justify-content: space-evenly;
+
+      // INDIVIDUAL LIGHT LINK STYLES
+      li {
+        padding: 1em;
+        border: 0.20em solid #807391;
+        border-radius: 10px;
+        background-color: #918873;
+        width: 10%;
+        text-align: center;
+        flex:1;
+
+        // LINK BEHAVIOR AND LOW LEVEL STYLES
+        a {
+          outline: none;
+          text-decoration: none;
+
+          &:link, &:visited {
+            color: #2a2e24;
+          }
+
+          &:focus {
+            text-decoration: underline;
+          }
+
+          &:hover {
+            color: #ebe6b6;
+          }
+
+          &:active {
+            color: #bbe3b6;
+          }
+        }
+      }
+    }
+  }
+}
+
+article {
+
+}
+
+aside {
+
+}
+
+footer {
+
+}
+
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+}
