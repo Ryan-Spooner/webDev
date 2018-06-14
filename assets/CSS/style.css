@@ -49,6 +49,12 @@ header {
 article {
   flex: 1; }
 
+.games {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  align-content: center; }
+
 section {
   float: left;
   width: 60%; }
@@ -77,3 +83,7 @@ h1 {
 h2 {
   font-family: "Merriweather", serif;
   font-size: 25px; }
+
+canvas {
+  background: #eee;
+  margin: auto; }
