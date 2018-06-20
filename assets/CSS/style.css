@@ -36,7 +36,7 @@ header {
         header nav ul li a {
           outline: none;
           text-decoration: none;
-          font-size: 1.3em; }
+          font-size: 2vw; }
           header nav ul li a:link, header nav ul li a:visited {
             color: #2a2e24; }
           header nav ul li a:focus {
