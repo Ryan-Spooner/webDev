@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 body {
   /* background-color: #849173; */
-  background: url(assets/PICS/bg-01.png);
+  background: url(../PICS/bg-01.png);
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
