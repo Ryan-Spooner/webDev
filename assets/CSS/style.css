@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,700");
 body {
-  background-color: #849173;
+  /* background-color: #849173; */
+  background: url(assets/PICS/bg-01.png);
   font-family: "Open Sans", sans-serif;
   padding: 5px 25px;
   font-size: 18px;
@@ -24,7 +25,7 @@ header {
       justify-content: space-evenly; }
       header nav ul li {
         margin: 5px;
-        padding: 0.5em 1em 0.5em;
+        padding: 0.5em 0.5em;
         border: 0.15em outset #807391;
         border-radius: 10px;
         background-color: #918873;
